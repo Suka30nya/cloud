@@ -1,0 +1,109 @@
+ 965  docker network ls
+  966  systemctl status docker 
+  967  docker pull mysql:5
+  968  pwd
+  969  cd home/
+  970  cd /home
+  971  ls
+  972  cd master
+  973  cd /master
+  974  cd
+  975  exit
+  976  cd /Downloads
+  977  cd Downloads
+  978  ls
+  979  cd
+  980  mkdir dm1
+  981  cd dm1
+  982  history
+  983  cd
+  984  git clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile
+  985  git clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile.git
+  986  clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile.git
+  987  git clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile
+  988  ls
+  989  cd Downloads
+  990  ls
+  991  cd
+  992  exit
+  993  pwd
+  994  cp /home/Master/cloud_files /root/dm1
+  995  cp /home/Master/cloud_files /root/dm1/
+  996  cp /home/Master/cloud_files/ /root/dm1/
+  997  cp /home/Master/cloud_files/Dockerfile /root/dm1/
+  998  cp /home/Master/cloud_files/test.py /root/dm1/
+  999  cd dm1
+ 1000  ls
+ 1001  vi test.py
+ 1002  vi Dockerfile
+ 1003  docker build -t test-sql .
+ 1004  vi Dockerfile
+ 1005  docker build -t test-sql .
+ 1006  vi Dockerfile
+ 1007  docker build -t test-sql .
+ 1008  vi Dockerfile
+ 1009  docker build -t test-sql .
+ 1010  vi Dockerfile
+ 1011  docker build -t test-sql .
+ 1012  dockr network create login-app 
+ 1013  docker network create login-app 
+ 1014  docker run --name db1 -e MYSQL_ROOT_PASSWORD=password --network login-app -d mysql:5
+ 1015  docker logs db1
+ 1016  docker run --rm --network login-app test-sql
+ 1017  docker images
+ 1018  history
+ 1019  docker images
+ 1020  mkdir /proj1
+ 1021  cd /proj1
+ 1022  git clone https://github.com/santoshkatageri/Java-Mysql-Simple-Login-Web-application/blob/master/target/LoginWebApp/register.jsp
+ 1023  git clone https://github.com/santoshkatageri/Java-Mysql-Simple-Login-Web-application/blob/master/target/LoginWebApp/register.jsp.git
+ 1024  git clone https://github.com/santoshkatageri/Java-Mysql-Simple-Login-Web-application.git
+ 1025  ls
+ 1026  cd  Java-Mysql-Simple-Login-Web-application
+ 1027  ls
+ 1028  cd src
+ 1029  ls
+ 1030  cd main
+ 1031  ls
+ 1032  cd webapp
+ 1033  ls
+ 1034  vi login.jsp
+ 1035  vi userRegistration.jsp
+ 1036  cd
+ 1037  cd proj1
+ 1038  cd /proj1
+ 1039  ls
+ 1040  cd Java-Mysql-Simple-Login-Web-application
+ 1041  ls
+ 1042  vi pom.xml
+ 1043  ls
+ 1044  ls /target
+ 1045  ls target
+ 1046  rm -rf target/LoginWebapp.war
+ 1047  ls
+ 1048  ls target
+ 1049  rm -rf target/LoginWebapp.war
+ 1050  ls target
+ 1051  rm -rf target/LoginWebApp.war
+ 1052  ls target
+ 1053  yum install maven -y
+ 1054  mvn pacakage
+ 1055  mvn package
+ 1056  ls target
+ 1057  docker pull tomcat
+ 1058  cd
+ 1059  mkdir /login-final-img
+ 1060  cd /login-final-img
+ 1061  cp /proj1/Java-Mysql-Simple-Login-Web-application/target/LoginWebApp.war .
+ 1062  ls
+ 1063  vi Dockerfile
+ 1064  docker build -t java-login .
+ 1065  docker ps
+ 1066  docker run --name lg1 --network login-app -d java-login
+ 1067  docker ps -a
+ 1068  docker stop lg1
+ 1069  docker rm lg1
+ 1070  docker run --name lg1 --network login-app -p 8080:8080 -d java-login
+ 1071  docker ps
+ 1072  history
+
