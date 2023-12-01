@@ -1,0 +1,409 @@
+mkdir /app_pranjali
+  171  cd /app_pranjali
+  172  git clone https://github.com/Pranjali-0928/ec-site.git
+  173  git pull
+  174  ls
+  175  cd ec-site
+  176  ls
+  177  git pull
+  178  cat index.html
+  179  git log
+  180  git status
+  181  ls
+  182  vi Dockerfile
+  183  ls
+  184  vi .gitignore
+  185  git status
+  186  git add -A
+  187  git commit -m "git ignore added"
+  188  git status
+  189  git log
+  190  docker build -t ec-site .
+  191  docker images
+  192  docker run --name ec1 -p 8000:80 -d ec-site
+  193  curl localhost:8000
+  194  docker ps
+  195  docker ps -a
+  196  curl localhost:8000
+  197  history
+  198  vi Dockerfile
+  199  ls
+  200  git pull
+  201  cat index.html
+  202  git branch
+  203  git pull origin main
+  204  git fetch
+  205  merge fetch
+  206  git merge
+  207  cat index.html
+  208  curl localhost:8000
+  209  docker build -t ec-site .
+  210  docker ps -a
+  211  docker stop ec1
+  212  docker rm ec1
+  213  docker run --name ec1 -p 8000:80 -d ec-site
+  214  curl localhost:8000
+  215  history
+  216  cd
+  217  ls
+  218  cd /apps
+  219  ls
+  220  cd ec-sites
+  221  cd ec-site
+  222  ls
+  223  vi Dockerfile
+  224  cd
+  225  vi ec-site-build.sh
+  226  ls
+  227  vi ec-site-build.sh
+  228  chmod +x ec-site-build.sh
+  229  ./ec-site-build.sh
+  230  ls
+  231  vi ec-site-build.sh
+  232  ls
+  233  ls /app
+  234  ls /apps
+  235  ls /
+  236  vi ec-site-build.sh
+  237  ./ec-site-build.sh
+  238  curl localhost:8000
+  239  ./ec-site-build.sh
+  240  vi ec-site-build.sh
+  241  ./ec-site-build.sh
+  242  curl localhost:8000
+  243  ./ec-site-build.sh
+  244  vi ec-site-build.sh
+  245  ./ec-site-build.sh
+  246  vi ec-site-build.sh
+  247  history
+  248  cat Dockerfile
+  249  cd apps
+  250  cd /apps
+  251  cat Dockerfilel
+  252  cat Dockerfile
+  253  ls
+  254  cd /ec-site
+  255  cd ec-site
+  256  cat Dockerfile
+  257  vi Dockerfile
+  258  vi .gitignore
+  259  git status
+  260  git add -A
+  261  git status
+  262  git commit -m "index.html added"
+  263  git log
+  264  Docker build -t ec-sites1 .
+  265  docker build -t ec-sites1 .
+  266  docker run --name ec2 -p 7000:80 -d ec-sites1
+  267  curl localhost:7000
+  268  git pull
+  269  git fetch origin main
+  270  git merge
+  271  curl localhost:7000
+  272  docker build -t ec-sites1 .
+  273  docker stop ec2
+  274  docker remove ec2
+  275  docker rm ec2
+  276  docker run --name ec2 -p 7000:80 -d ec-sites1
+  277  curl localhost:7000
+  278  cd
+  279  vi ec-sites-build.sh
+  280  ls
+  281  ls /
+  282  cd apps
+  283  cd /apps
+  284  ls
+  285  cd ec-site
+  286  ls
+  287  cd
+  288  vi ec-sites-build.sh
+  289  chmod +x ec-sites-build.sh
+  290  ./ec-sites-build.sh
+  291  mkdir /app2
+  292  cd /app2
+  293  git clone https://github.com/Pranjali-0928/acts-demo.git
+  294  ls
+  295  cd acts-demo
+  296  ls
+  297  vi Dockerfile
+  298  vi .gitignore
+  299  git status
+  300  git add -A
+  301  git commit -m "Docker file commited"
+  302  git status
+  303  docker build -t acts-demo .
+  304  docker run --name site1 -p 8000:80 -d acts-demo
+  305  docker run --name site1 -p 9000:80 -d acts-demo
+  306  docker stop site1
+  307  docker rm site1
+  308  docker run --name site1 -p 9000:80 -d acts-demo
+  309  curl localhost
+  310  curl localhost:9000
+  311  ls
+  312  cat index.html
+  313  curl localhost/index.html
+  314  curl localhost:9000
+  315  vi Dockerfile
+  316  git status
+  317  git add -A
+  318  git commit -m "Docker file commited2"
+  319  docker build -t acts-demo .
+  320  docker ps -a
+  321  docker stop site1
+  322  docker rm site1
+  323  docker run --name site1 -p 9000:80 -d acts-demo
+  324  curl localhost:9000
+  325  curl localhost/index.html
+  326  curl localhost:9000 index.html
+  327  docker stop site1
+  328  docker rm site1
+  329  docker run --name site1 -p 80:80 -d acts-demo
+  330  curl localhost:9000 index.html
+  331  curl localhost:80
+  332  git fetch origin main
+  333  git merge
+  334  docker build -t acts-demo .
+  335  docker stop site1
+  336  docker rm site1
+  337  docker run --name site1 -p 80:80 -d acts-demo
+  338  curl localhost:80
+  339  curl localhost:80/courses.html
+  340  ls
+  341  cat courses.html
+  342  curl localhost:80/courses.html
+  343  vi Dockerfile
+  344  curl localhost:80/courses.html
+  345  docker build -t acts-demo .
+  346  docker stop site1
+  347  docker rm site1
+  348  docker run --name site1 -p 80:80 -d acts-demo
+  349  curl localhost:80/courses.html
+  350  cd
+  351  docker ps -a
+  352  docker rm site1
+  353  docker stop site1
+  354  docker rm site1
+  355  git clone https://github.com/Suka30nya/acts-demo.git
+  356  docker build -t img1
+  357  ls
+  358  cd acts-demo
+  359  ls
+  360  vi index.html
+  361  vi Dockerfile
+  362  vi .gitignore
+  363  git status
+  364  git add -A
+  365  git commit -m "index.html commited"
+  366  docker images
+  367  docker build -t img1
+  368  docker build -t img1 .
+  369  docker run --name cont1 -p 80:80 -d img1
+  370  docker run --name cont2 -p 80:80 -d img1
+  371  curl localhost:80
+  372  git fetch origin main
+  373  git merge
+  374  docker build -t img2
+  375  docker build -t img2 .
+  376  docker stop cont2
+  377  docker rm cont2
+  378  docker run --name cont2 -p 80:80 -d img2
+  379  curl localhost:80
+  380  curl localhost:80/courses.html
+  381  docker ps -1
+  382  docker ps -a
+  383  docker network ls
+  384  docker ps -a
+  385  docker inspect m1
+  386  docker inspect m1 | grep -i
+  387   | grep -i
+  388  docker inspect m1 | grep -i ipaddress
+  389  systemctl status podman
+  390  clear
+  391  +docker network ls
+  392  docker network ls
+  393  ip a
+  394  ipconfig
+  395  ip a
+  396  clear
+  397  docker 
+  398  docker network -h
+  399  docker network create -h
+  400  docker network create net1 
+  401  ip
+  402  ip a
+  403  docker run --name wb9 -p 7500:80 -d httpd
+  404  docker inspect wb9
+  405  docker inspect wb5 | grep -i ipaddress
+  406  docker inspect wb9 | grep -i ipaddress
+  407  ocker stop wb5
+  408  docker inspect wb9 | grep -i ipaddress
+  409  ocker stop wb9
+  410  docker stop wb9
+  411  docker inspect wb9 | grep -i ipaddress
+  412  docker start web9
+  413  docker start wb9
+  414  docker inspect wb9 | grep -i ipaddress
+  415  docker network disconnect wb9
+  416  docker network disconnect podman wb9
+  417  docker inspect wb9 | grep -i ipaddress
+  418  docker network connect net1 wb9
+  419  docker inspect wb9 | grep -i ipaddress
+  420  docker inspect wb9 | grep -i mac
+  421  docker network disconnect net1 wb9
+  422  docker network connect podman wb9
+  423  docker network rm net1
+  424  docker network ls
+  425  docker inspect wb9 | grep -i ipaddress
+  426  docker run --name ub10 -ti ubuntu
+  427  docker network create  test1
+  428  docker network disconnect podman wb9 
+  429  docker network connect test1 wb5
+  430  docker network connect test1 wb9
+  431  docker network disconnect podman ub10
+  432  docker network connect test1 ub10
+  433  docker start ub10
+  434  docker inspect wb9 | grep -i ipaddress
+  435  docker exec ub10 curl wb9
+  436  docker stop wb9
+  437  docker start wb9
+  438  docker exec ub10 curl wb9
+  439  docker inspect wb9 | grep -i ipaddress
+  440  docker exec ub10 curl wb9
+  441  clear
+  442  docker run --name exam -d httpd
+  443  docker inspect exam | grep -i ipaddress
+  444  docker network creat acts
+  445  docker network create acts
+  446  docker network ls
+  447  curl 10.88.0.6
+  448  docker network disconnect podman exam
+  449  docker network connect exam acts
+  450  docker network connect acts exam
+  451  docker network ls
+  452  vi shell.sh
+  453  docker inspect exam | grep -i ipaddress
+  454  vi Dockerfile
+  455  docker build -t exam_image .
+  456  docker run --name exam_web -d exam_image
+  457  vi Dockerfile
+  458  vi shell.sh
+  459  docker disconnect exam_web podman
+  460  docker disconnect podman exam_web
+  461  docker ps -a
+  462  docker network disconnect podman exam_web
+  463  docker network connect acts exam_web
+  464  docker build -t exam_image .
+  465  docker run --name exam_image --network acts exam_image
+  466  docker inspect exam | grep -i ipaddress
+  467  docker network ls
+  468  vi Dockerfile
+  469  docker build -t exam_image .
+  470  docker build -t exam_image1 .
+  471  vi Dockerfile
+  472  docker build -t exam_image .
+  473  docker run --name exam_image_container --network acts exam_image
+  474  curl exam
+  475  docker ps
+  476  docker start exam_image
+  477  curl exam
+  478  docker ps
+  479  docker start exam_image
+  480  curl exam
+  481  vi Dockerfile
+  482  vi shell.sh
+  483  vi Dockerfile
+  484  clear
+  485  history
+  486  clear
+  487  docker pull mysql
+  488  docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=root -d 
+  489  docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=root -d mysql
+  490  docker ps
+  491  docker run --rm mysql1 ls
+  492  docker images
+  493  docker run --rm  exam_image ls
+  494  docker ps
+  495  docker run --rm -ti mysql mysql -u root -h mysql1 -p
+  496  docker inspect mysql1 | grep -i ipaddress
+  497  docker run --rm -ti mysql mysql -u root -h 10.88.0.11 -p
+  498  docker run --rm -ti mysql mysql -u root -h 10.88.0.11 -p -help
+  499  docker run --rm -ti mysql mysql -u root -h 10.88.0.11 -p -h
+  500  -p
+  501  docker run --rm -ti mysql mysql -u root -h 10.88.0.11 -h
+  502  docker run --rm -ti mysql mysql -u root -h 10.88.0.11 
+  503  docker image
+  504  s
+  505  docker images
+  506  docker tag -h
+  507  docker tag ec-site pranjali28/hpcsa-demo:1.0
+  508  docker images
+  509  docker push pranjali28/hpcsa-demo:1.0
+  510  docker login
+  511  docker push pranjali28/hpcsa-demo:1.0
+  512  systemctl stop podman
+  513  yum erase podman
+  514  sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+  515  dnf update -y
+  516  sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  517  dnf update -y
+  518  systemctl start docker
+  519  systemctl enable docker
+  520  systemctl status docker
+  521  docker images
+  522  docker ps -a
+  523  docker pull ubuntu
+  524  docker images
+  525  mkdir /demo2
+  526  cd /demo2
+  527  vi hello.sh
+  528  vi Dockerfile
+  529  chmod +x hello.sh
+  530  docker build -t hello .
+  531  docker images
+  532  docker tag hello pranjali28/hpcsa-demo:1.0
+  533  docker images
+  534  docker login 
+  535  docker push pranjali28/hpcsa-demo:1.0
+  536  ls
+  537  ls -a
+  538  docker images
+  539  docker rmi hello
+  540  docker images
+  541  docker rmi pranjali28/hpcsa-demo:1.0
+  542  docker images
+  543  docker pull pranjali28/hpcsa-domo:1.0
+  544  docker pull pranjali28/hpcsa-demo:1.0
+  545  docker images
+  546  docker run --rm pranjali28/hpcsa-demo:1.0
+  547  cd ..
+  548  cd
+  549  cd downloads/
+  550  cd Downloads/
+  551  LS
+  552  ls
+  553  exit
+  554  cd Downloads/
+  555  ls
+  556  cp /home/Master/Downloads/docker-compose-linux-aarch64 /usr/bin/docker-compose
+  557  ls
+  558  hostname
+  559  localhost
+  560  cp /home/RockeyLinux/Downloads/docker-compose-linux-aarch64 /usr/bin/docker-compose
+  561  cp /home/RockyLinux/Downloads/docker-compose-linux-aarch64 /usr/bin/docker-compose
+  562  exit
+  563  cp /home/Master/Downloads/docker-compose-linux-aarch64 /usr/bin/docker-compose
+  564  ls
+  565  cd /usr/bin
+  566  ls
+  567  cd docker-compose
+  568  cd /docker-compose
+  569  ls
+  570  ls | grep docker
+  571  chmod +x /usr/bin/docker-compose
+  572  cd
+  573  cd Downloads/
+  574  cd /docker-compose
+  575  cd 
+  576  cd /usr/bin
+  577  rm -rf /usr/bin/docker-compose
+

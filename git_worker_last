@@ -1,0 +1,489 @@
+d
+  717  cd /usr/libexec/docker/cli-plugins/
+  718  ls
+  719  cp docker-compose /usr/bin/
+  720  ls
+  721  cd
+  722  cd bin
+  723  cd bin/
+  724  cd /bin
+  725  ls
+  726  cd
+  727  ./docker-compose -v
+  728  cd /usr/libexec/docker/cli-plugins/
+  729  ./docker-compose -v
+  730  docker pull nginx
+  731  cd
+  732  cd /usr/libexec/docker/cli-plugins/
+  733  docker pull httpd
+  734  cd
+  735  vi docker-compose.yaml
+  736  docker ps
+  737  docker ps -a
+  738  docker-compose -v
+  739  docker-compose up
+  740  vi docker-compose.yaml
+  741  docker-compose up
+  742  docker ps
+  743  docker ps -a
+  744  docker-compose up
+  745  vi docker-compose.yaml
+  746  history
+  747  docker ps
+  748  curl localhost:5000
+  749  curl localhost:7000
+  750  docker ps
+  751  docker-compose down
+  752  docker ps -a
+  753  docker ps
+  754  docker images
+  755  docker network ls
+  756  systemctl status docker 
+  757  docker pull mysql:5
+  758  pwd
+  759  cd home/
+  760  cd /home
+  761  ls
+  762  cd master
+  763  cd /master
+  764  cd
+  765  exit
+  766  cd /Downloads
+  767  cd Downloads
+  768  ls
+  769  cd
+  770  mkdir dm1
+  771  cd dm1
+  772  history
+  773  cd
+  774  git clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile
+  775  git clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile.git
+  776  clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile.git
+  777  git clone https://github.com/sandeepw1/cloud/blob/main/Dockerfile
+  778  ls
+  779  cd Downloads
+  780  ls
+  781  cd
+  782  exit
+  783  pwd
+  784  cp /home/Master/cloud_files /root/dm1
+  785  cp /home/Master/cloud_files /root/dm1/
+  786  cp /home/Master/cloud_files/ /root/dm1/
+  787  cp /home/Master/cloud_files/Dockerfile /root/dm1/
+  788  cp /home/Master/cloud_files/test.py /root/dm1/
+  789  cd dm1
+  790  ls
+  791  vi test.py
+  792  vi Dockerfile
+  793  docker build -t test-sql .
+  794  vi Dockerfile
+  795  docker build -t test-sql .
+  796  vi Dockerfile
+  797  docker build -t test-sql .
+  798  vi Dockerfile
+  799  docker build -t test-sql .
+  800  vi Dockerfile
+  801  docker build -t test-sql .
+  802  dockr network create login-app 
+  803  docker network create login-app 
+  804  docker run --name db1 -e MYSQL_ROOT_PASSWORD=password --network login-app -d mysql:5
+  805  docker logs db1
+  806  docker run --rm --network login-app test-sql
+  807  docker images
+  808  history
+  809  docker images
+  810  mkdir /proj1
+  811  cd /proj1
+  812  git clone https://github.com/santoshkatageri/Java-Mysql-Simple-Login-Web-application/blob/master/target/LoginWebApp/register.jsp
+  813  git clone https://github.com/santoshkatageri/Java-Mysql-Simple-Login-Web-application/blob/master/target/LoginWebApp/register.jsp.git
+  814  git clone https://github.com/santoshkatageri/Java-Mysql-Simple-Login-Web-application.git
+  815  ls
+  816  cd  Java-Mysql-Simple-Login-Web-application
+  817  ls
+  818  cd src
+  819  ls
+  820  cd main
+  821  ls
+  822  cd webapp
+  823  ls
+  824  vi login.jsp
+  825  vi userRegistration.jsp
+  826  cd
+  827  cd proj1
+  828  cd /proj1
+  829  ls
+  830  cd Java-Mysql-Simple-Login-Web-application
+  831  ls
+  832  vi pom.xml
+  833  ls
+  834  ls /target
+  835  ls target
+  836  rm -rf target/LoginWebapp.war
+  837  ls
+  838  ls target
+  839  rm -rf target/LoginWebapp.war
+  840  ls target
+  841  rm -rf target/LoginWebApp.war
+  842  ls target
+  843  yum install maven -y
+  844  mvn pacakage
+  845  mvn package
+  846  ls target
+  847  docker pull tomcat
+  848  cd
+  849  mkdir /login-final-img
+  850  cd /login-final-img
+  851  cp /proj1/Java-Mysql-Simple-Login-Web-application/target/LoginWebApp.war .
+  852  ls
+  853  vi Dockerfile
+  854  docker build -t java-login .
+  855  docker ps
+  856  docker run --name lg1 --network login-app -d java-login
+  857  docker ps -a
+  858  docker stop lg1
+  859  docker rm lg1
+  860  docker run --name lg1 --network login-app -p 8080:8080 -d java-login
+  861  docker ps
+  862  history
+  863  cd /dm1
+  864  cd dm1
+  865  ls
+  866  vi test.py
+  867  ip a
+  868  hostname set-hostname master
+  869  hostnamectl set-hostname master
+  870  ip a
+  871  docker swarn init --advertise-addr 192.168.144.144
+  872  docker swarm init --advertise-addr 192.168.144.144
+  873  vi joincmd
+  874  scp joincmd worker1@192.168.144.146:/home/worker1
+  875  scp joincmd worker2@192.168.144.145:/home/worker2
+  876  firewall-cmd --list-all
+  877  firewall-cmd --add-port=2377/tcp
+  878  chmod +x joincmd
+  879  mkdir /folder
+  880  vi index.html
+  881  cd /folder
+  882  vi index.html
+  883  vi Dockerfile
+  884  docker build -t INDEX
+  885  docker build -t INDEX .
+  886  docker build -t index .
+  887  docker tag index suk30anya/swarm_repo
+  888  docker login
+  889  docker push suk30anya/swarm_repo
+  890  docker push suk30anya/swarm_repo:1.0
+  891  docker tag index suk30anya/swarm_repo
+  892  docker push suk30anya/swarm_repo:1.0
+  893  docker push suk30anya/swarm_repo
+  894  docker login -u "suk30anya" -p "Sukanya#1234" docker.io
+  895  docker push suk30anya/swarm_repo
+  896  docker service create --myweb -p 5500:80 -d suk30anya/swarm_repo
+  897  docker service create -- name myweb -p 5500:80 -d suk30anya/swarm_repo
+  898  docker service create -- name myweb -p 5500:80 -d suk30anya/swarm_repo:latest
+  899  docker tag index suk30anya/swarm_repo:1.0
+  900  docker push suk30anya/swarm_repo:1.0
+  901  docker service rm myweb
+  902  docker service ls
+  903  docker service rm  agitated_brahmagupta bold_visvesvaraya 
+  904  docker service create --name myweb -p 5500:80 -d suk30anya/swarm_repo:1.0
+  905  docker service ls
+  906  docker service scale myweb=10
+  907  docker service ps myweb
+  908  docker service scale myweb=2
+  909  docker service ps myweb
+  910  curl 192.168.144.144:5500
+  911  curl 192.168.144.145:5500
+  912  clear
+  913  cd
+  914  mkdir /folder2
+  915  cd /folder2
+  916  vi index.html
+  917  vi Dockerfile
+  918  docker images
+  919  docker build -t index_nginx_image .
+  920  vi Dockerfile
+  921  docker build -t index_nginx_image .
+  922  docker login
+  923  docker tag index_nginx_image suk30anya/index_nginx_image:2.0
+  924  docker push suk30anya/index_nginx_image:2.0
+  925  docker service --name ngi -p 80:80 suk30anya/index_nginx_image:2.0
+  926  docker service create --name ngi -p 80:80 suk30anya/index_nginx_image:2.0
+  927  docker service ls
+  928  docker service ps ngi
+  929  curl 192.168.144.144:80
+  930  cd
+  931  firewall-cmd --add-port={7946/tcp,7946/udp,4789/udp} --permanent
+  932  firewall-cmd --list-all
+  933  firewall-cmd --reload
+  934  firewall-cmd --list-all
+  935  firewall-cmd --add-port={7946/tcp,7946/udp,4789/udp,2377/tcp} --permanent
+  936  firewall-cmd --list-all
+  937  firewall-cmd --reload
+  938  firewall-cmd --list-all
+  939  docker service create --name ngi --publish published=000,target=80 suk30anya/index_nginx_image:2.0
+  940  docker service create --name nginx23 --publish published=6000,target=80 suk30anya/index_nginx_image:2.0
+  941  docker service rm nginx23
+  942  docker service ps nginx23
+  943  curl 192.168.144.146:6000
+  944  curl 192.168.144.144:6000
+  945  firewall-cmd --list-all
+  946  curl 192.168.144.146:6000
+  947  firewall-cmd --reload
+  948  firewall-cmd --list-all
+  949  curl 192.168.144.146:6000
+  950  docker service create --name nginx23 --publish published=6000,target=80 suk30anya/index_nginx_image:2.0
+  951  docker service rm nginx23
+  952  docker service create --name nginx23 --publish published=6000,target=80 suk30anya/index_nginx_image:2.0
+  953  docker service ps nginx23
+  954  curl 192.168.144.146:6000
+  955  curl 192.168.144.145:6000
+  956  curl 192.168.144.144:6000
+  957  cd /folder2
+  958  ls
+  959  vi Dockerfile
+  960  docker node -h
+  961  docker node ls
+  962  docker node promote worker1
+  963  docker node ls
+  964  docker node inspect worker1
+  965  docker node inspect worker1 | grep -i role
+  966  docker node inspect worker2 | grep -i role
+  967  docker node inspect master | grep -i role
+  968  docker node demote master
+  969  docker node ls
+  970  init 0
+  971  history
+  972  systemctl status docker
+  973  docker node ls
+  974  docker node demote worker1
+  975  docker node ls
+  976  history
+  977  docker service create --name nginx231 --publish published=2200,target=80 suk30anya/index_nginx_image:2.0
+  978  docker service ls
+  979  docker service scale nginx231=6
+  980  docker service ps m=nginx231
+  981  docker service ps nginx231
+  982  docker swarm leave
+  983  docker swarm leave --force
+  984  systemctl stop docker
+  985  systemctl disable docker
+  986  systemctl status docker
+  987  clear
+  988  docker node ls
+  989  docker images
+  990  systemctl status docker
+  991  systemctl stop docker
+  992  systemctl disable docker
+  993  init 6
+  994  systemctl status docker
+  995  systemctl start docker
+  996   docker images
+  997  clear
+  998  systemctl enable docker
+  999  docker save -h
+ 1000  docker save nginx > nginx-image.tar
+ 1001  ls
+ 1002  docker save httpd > httpd.tar
+ 1003  ls
+ 1004  scp nginx-image.tar worker1@192.168.144.146:/home/worker1/
+ 1005  scp httpd.tar worker1@192.168.144.146:/home/worker1/
+ 1006  mkdir /jenkins
+ 1007  cd /jenkins
+ 1008  git clone https://github.com/Suka30nya/jenkins-demo.git
+ 1009  ls
+ 1010  cd jenkins-demo
+ 1011  ls
+ 1012  vi Dockerfile
+ 1013  vi index.html
+ 1014  vi Dockerfile
+ 1015  git add -A
+ 1016  git commit -m "first version"
+ 1017  git log
+ 1018  git status
+ 1019  git config user.name demo1
+ 1020  git config user.email demo1@localhost
+ 1021  git commit -m "first version"
+ 1022  git status
+ 1023* g
+ 1024  git status
+ 1025  git push origin main
+ 1026  cd
+ 1027  vi test
+ 1028  cd /jenkins-demo
+ 1029  ls
+ 1030  cd jenkins-demo
+ 1031  cd dm1
+ 1032  ls
+ 1033  cd
+ 1034  cd jenkins
+ 1035  cd /jenkins
+ 1036  cd /jenkins-demo
+ 1037  cd jenkins-demo
+ 1038  ls
+ 1039  git push origin main
+ 1040  ped
+ 1041  pwd
+ 1042  vi index.html
+ 1043  git add -A
+ 1044  git commit -m "first ver only""
+ 1045  git commit -m "first ver only"
+ 1046  git push
+ 1047  docker ps
+ 1048  docker ps -a
+ 1049  curl localhost:9500
+ 1050  ls
+ 1051  vi index.html
+ 1052  curl localhost:9500
+ 1053  git add -A
+ 1054  git commit -m "modified"
+ 1055  git push
+ 1056  history
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    2  dnf update -y
+    3  dnf -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    4  systemctl start docker
+    5  systemctl enable docker
+    6  systemctl status docker
+    7  ip a
+    8  ./joincmd
+    9  cd /home/worker1
+   10  ./joincmd
+   11  ls
+   12  ./joincmd
+   13  vi joincmd
+   14  chmod +x joincmd
+   15  ./joincmd
+   16  docker node ls
+   17  firewall-cmd --add-port={7946/tcp,7946/udp,4789/udp} --permanent
+   18  ip a
+   19  firewall-cmd --list-all
+   20  firewall-cmd --reload
+   21  firewall-cmd --list-all
+   22  firewall-cmd --add-port={7946/tcp,7946/udp,4789/udp,2377/tcp} --permanent
+   23  firewall-cmd --reload
+   24  firewall-cmd --list-all
+   25  docker service ls
+   26  docker nod ls
+   27  docker node ls
+   28  docker node update -h
+   29  docker node update --availability darin master
+   30  docker node update --availability drain master
+   31  docker node ls
+   32  histoy
+   33  history
+   34  systemctl status docker
+   35  docker node ls
+   36  docker node update availability active master
+   37  docker node update --availability active master
+   38  docker node ls
+   39  docker node promote master
+   40  docker pull suk30anya/index_nginx_image:2.0
+   41  docker swarm leave
+   42  clear
+   43  java -version
+   44  cd
+   45  java -version
+   46  cd /home/Downloads
+   47  cd /home
+   48  ls
+   49  cd
+   50  mkdir /jen
+   51  cd /jen
+   52  cpwd
+   53  pwd
+   54  cp /home/master/Downloads/jenkins.war .
+   55  cd
+   56  exit
+   57  ls /jenkins-demo/
+   58  docker run --name webapp -d httpd
+   59  docker images
+   60  systemctl status docker
+   61  docker run --name webapp -d httpd
+   62  ip a
+   63  hostname
+   64  cd /home
+   65  ls
+   66  cd worker1
+   67  ls
+   68  docker images
+   69  docker load < nginx-image.tar
+   70  docker images
+   71  docker load < httpd.tar
+   72  docker images
+   73  docker ps
+   74  docker run --name webapp -d nginx
+   75  docker ps
+   76  yum install git -y
+   77  docker images
+   78  mkdir /code
+   79  cd /code
+   80  git clone https://github.com/Suka30nya/jenkins-demo.git
+   81  ls
+   82  cd jenkins-demo
+   83  ls
+   84  pwd
+   85  cd jenkins-demo/
+   86  pwd
+   87  docker ps
+   88  docker ps -a
+   89  docker run --name webapp -d nginx
+   90  curl localhost:9500
+   91  docker ps
+   92  setenforce 0
+   93  curl localhost:9500
+   94  docker stop webapp
+   95  docker start webapp
+   96  curl localhost:9500
+   97  ls
+   98  vi Dockerfile 
+   99  clear
+  100  docker images
+  101  docker run --name test1 -p 8600:80 -d nginx
+  102  curl localhost:8600
+  103  docker ps
+  104  docker stop test1
+  105  docker stop webapp
+  106  docker rm webapp
+  107  docker rm test1
+  108  docker rmi nginx
+  109  docker pull nginx
+  110  clear
+  111  docker run --name test1 -p 8600:80 -d nginx
+  112  curl localhost:8600
+  113  systemctl restart docker
+  114  docker ps -
+  115  docker ps -a
+  116  docker start test1
+  117  curl localhost:8600
+  118  clear
+  119  docker stop test1
+  120  docker rm test1
+  121  docker run --name webapp -p 8600:80 -d nginx
+  122  history
+  123  cd
+  124  ssh-keygen -t rsa
+  125  ssh-copy-id .ssh/id_rsa.pub
+  126  ssh-copy-id -i .ssh/id_rsa.pub devops@192.168.144.145
+  127  ssh devops@192.168.144.145
+  128  history
+
+
